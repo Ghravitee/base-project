@@ -16,7 +16,7 @@ const Tokenomics = () => {
                 <p className='text-white text-2xl lg:text-3xl'>Locked</p>
             </div>
             <div className='flex flex-col bg-[#3B94FF] px-6 py-10 rounded-xl justify-center items-center'>
-                <h3 className='text-6xl text-black'>Mint</h3>
+                <h3 className='text-6xl text-black'>Contract</h3>
                 <p className='text-white text-2xl lg:text-3xl'>Verified & Renounced </p>
             </div>
         </div>
