@@ -33,14 +33,14 @@ const Hero = () => {
         <div className="flex flex-row gap-4 justify-self-center mb-4">
         <a
           href="#"
-            className="flex justify-center items-center py-3 px-4 md:px-10 text-white cursor-pointer rounded-full bg-[#60B4FF] border-2 hover:bg-black border-white transition duration-300"
+            className="flex justify-center items-center py-3 px-4 md:px-10 text-white cursor-pointer rounded-full bg-[#3B94FF] border-2 hover:bg-black border-white transition duration-300"
           >
             Buy Now
           </a>
-        <a href="https://x.com/theblueonbase?s=21" className="flex justify-center items-center hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full">
+        <a href="https://x.com/theblueonbase?s=21" className="flex justify-center items-center hover:shadow-none transition duration-300 bg-[#3B94FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full">
                     <RiTwitterXFill color="white"/>
               </a>
-              <a href="https://t.me/TheBlueOnBase" className="flex hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full justify-center items-center">
+              <a href="https://t.me/TheBlueOnBase" className="flex hover:shadow-none transition duration-300 bg-[#3B94FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full justify-center items-center">
                     <BiLogoTelegram color="white"/>
               </a>
         </div>

@@ -10,7 +10,7 @@ export default function Home() {
       <div className="px-4 pt-8 pb-16 lg:px-28 md:px-10">
         <Hero />
       </div>
-      <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10 bg-[#60B4FF] box">
+      <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10 bg-[#3B94FF] box">
         <About />
       </div>
       <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10 lg:py-56 bg-black">

@@ -16,7 +16,7 @@ const About = () => {
           </p>
           <a
             href="#"
-            className="mt-10 w-[40%] sm:w-[20%] flex justify-center items-center py-3 px-4 md:px-4 text-[#60B4FF] cursor-pointer rounded-full bg-[#000000] border-2 border-white transition duration-300"
+            className="mt-10 w-[40%] sm:w-[20%] flex justify-center items-center py-3 px-4 md:px-4 text-[#3B94FF] cursor-pointer rounded-full bg-[#000000] border-2 border-white transition duration-300"
           >
             Buy Now
           </a>
