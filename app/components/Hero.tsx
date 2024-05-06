@@ -17,7 +17,7 @@ const Hero = () => {
         className="flex justify-center"
       >
         <Image
-          src="/Bird2.png"
+          src="/Bird2.PNG"
           alt="bird"
           height={350}
           width={350}

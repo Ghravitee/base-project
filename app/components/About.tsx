@@ -22,7 +22,7 @@ const About = () => {
           </a>
         </div>
         <Image
-          src="/Bird4.png"
+          src="/Bird4.PNG"
           alt="blue bird"
           width={500}
           height={500}
