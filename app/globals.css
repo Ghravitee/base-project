@@ -2,32 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  background-image: url("/public/curve.svg");
+  overflow-x: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.roboto {
+  font-family: var(--font-roboto)
+}
+
+.box {
+  --mask: 
+    conic-gradient(from 110deg at top,#0000,#000 1deg 139deg,#0000 140deg) top/225.29px 51% repeat-x,
+    conic-gradient(from -70deg at bottom,#0000,#000 1deg 139deg,#0000 140deg) bottom/225.29px 51% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+.box1 {
+  --mask: conic-gradient(from 110deg at top,#0000,#000 1deg 139deg,#0000 140deg) 50%/225.29px 100%;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
 }
