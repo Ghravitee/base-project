@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-start items-center md:mt-32">
        
           <h1 className="text-white text-8xl lg:text-[10rem] text-center leading-[1]">
-            The <span className="text-[#60B4FF] block lg:text-[12rem] tracking-widest"><span className="roboto">$</span>Blue</span>
+            The <span className="text-[#3B94FF] block lg:text-[12rem] tracking-widest"><span className="roboto">$</span>Blue</span>
           </h1>
  
         <div className="flex flex-row gap-4 justify-self-center mb-4">
