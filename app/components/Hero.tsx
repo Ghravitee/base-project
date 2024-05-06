@@ -27,20 +27,20 @@ const Hero = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-start items-center md:mt-32">
        
           <h1 className="text-white text-8xl lg:text-[10rem] text-center leading-[1]">
-            The <span className="text-blue-500 block lg:text-[12rem] tracking-widest"><span className="roboto">$</span>Blue</span>
+            The <span className="text-[#60B4FF] block lg:text-[12rem] tracking-widest"><span className="roboto">$</span>Blue</span>
           </h1>
  
-        <div className="flex flex-row gap-4 justify-self-center mb-7">
+        <div className="flex flex-row gap-4 justify-self-center mb-4">
         <a
           href="#"
             className="flex justify-center items-center py-3 px-4 md:px-10 text-white cursor-pointer rounded-full bg-[#60B4FF] border-2 hover:bg-black border-white transition duration-300"
           >
             Buy Now
           </a>
-        <a href="#" className="flex justify-center items-center hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full">
+        <a href="https://x.com/theblueonbase?s=21" className="flex justify-center items-center hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full">
                     <RiTwitterXFill color="white"/>
               </a>
-              <a href="#" className="flex hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full justify-center items-center">
+              <a href="https://t.me/TheBlueOnBase" className="flex hover:shadow-none transition duration-300 bg-[#60B4FF] hover:transform hover:scale-75 border-2 border-white w-12 h-12 rounded-full justify-center items-center">
                     <BiLogoTelegram color="white"/>
               </a>
         </div>
