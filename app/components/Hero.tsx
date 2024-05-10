@@ -45,7 +45,7 @@ const Hero = () => {
               </a>
         </div>
         <div className="h-[2px] w-[90%] bg-white"></div>
-        <h2 className="text-white text-base">CA: 0x00000000000000000000000</h2>
+        <h2 className="text-white text-base">CA: 0x587ce837F8225eD4DeB99eaf530cb7Fa32E915b5</h2>
       </div>
       
     </div>
