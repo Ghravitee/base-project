@@ -32,7 +32,7 @@ const Hero = () => {
  
         <div className="flex flex-row gap-4 justify-self-center mb-4">
         <a
-          href="#"
+          href="https://app.uniswap.org"
             className="flex justify-center items-center py-3 px-4 md:px-10 text-white cursor-pointer rounded-full bg-[#3B94FF] border-2 hover:bg-black border-white transition duration-300"
           >
             Buy Now
